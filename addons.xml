@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.reflex" name="[COLOR limegreen]reflex[/COLOR]Wizard" version="2.0.7" provider-name="drinfernoo, slamious">
+<addon id="plugin.program.reflex" name="[COLOR limegreen]reflex[/COLOR]Wizard" version="2.0.7" provider-name="inferno, slamious">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -20,7 +20,7 @@
         <description lang="en">[COLOR limegreen]reflex[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://www.github.com/1RefleX/repo.reflex/plugin.program.reflex/</source>
+        <source>https://www.github.com/1RefleX/repo.reflex/</source>
         <news>
 
  - Initial Commit
