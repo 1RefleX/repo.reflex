@@ -20,7 +20,7 @@
         <description lang="en">[COLOR limegreen]reflex[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://www.github.com/1RefleX/repo.reflex/</source>
+        <source>https://www.github.com/1RefleX/repo.reflex/master/</source>
         <news>
 
  - Initial Commit
@@ -33,9 +33,9 @@
 </addon>
 
         <dir minversion="18.9.0">
-            <info compressed="false">https://raw.githubusercontent.com/1RefleX/repo.reflex/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/1RefleX/repo.reflex/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/1RefleX/repo.reflex.zip</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/1RefleX/repo.reflex/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/1RefleX/repo.reflex/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/1RefleX/repo.reflex/master/repo.reflex.zip</datadir>
         </dir>
     </extension>
 
@@ -48,7 +48,7 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <source>https://www.github.com/1RefleX/repo.reflex/</source>
+        <source>https://www.github.com/1RefleX/repo.reflex/master/</source>
     </extension>
 </addon>
 </addons>
