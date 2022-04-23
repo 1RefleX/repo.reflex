@@ -19,7 +19,7 @@
         <description lang="en">[COLOR limegreen]RefleX[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://www.github.com/1RefleX/repo.reflex/plugin.program.RefleX/</source>
+        <source>https://github.com/1RefleX/repo.reflex/blob/master/plugin.program.reflex/plugin.program.reflex.zip?raw=true</source>
         <news>
 
         </news>
