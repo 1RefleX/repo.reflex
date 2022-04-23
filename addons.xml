@@ -1,18 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.RefleXwizard" name="[COLOR limegreen][B]RefleX[/B][/COLOR]Wizard Repository" version="2.0" provider-name="drinfernoo">
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.reflex" name="[COLOR limegreen]RefleX[/COLOR]Wizard" version="1.0.0" provider-name="drinfernoo, slamious">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR limegreen]RefleX[/COLOR]Wizard</summary>
+        <description lang="en">[COLOR limegreen]RefleX[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.github.com/1RefleX/plugin.program.reflex/</source>
+        <news>
+1.0.0
+ - Initial Commit
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.Reflex" name="[COLOR limegreen][B]RefleX[/B][/COLOR]Wizard Repository" version="2.0" provider-name="drinfernoo">
     <extension point="xbmc.addon.repository" name="[COLOR limegreen][B]RefleX[/B][/COLOR]Wizard Repository">
         <dir minversion="18.0" maxversion="18.9.0">
             <info compressed="false">https://raw.githubusercontent.com/1RefleX/repo.reflex/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/1RefleX/repo.reflex/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/1RefleX/repo.reflex/master/repository.reflex.zip</datadir>
+            <checksum>https://raw.githubusercontent.com/1RefleX/repo.reflex/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/1RefleX/repo.reflex/blob/master/repository.reflex.zip?raw=true/</datadir>
         </dir>
         <dir minversion="18.9.0">
             <info compressed="false">https://raw.githubusercontent.com/1RefleX/repo.reflex/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/1RefleX/repo.reflex/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/1RefleX/repo.reflex/master/repository.reflex.zip</datadir>
+            <checksum>https://raw.githubusercontent.com/1RefleX/repo.reflex/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/1RefleX/repo.reflex/blob/master/repository.reflex.zip?raw=true/</datadir>
         </dir>
     </extension>
-    
+
     <extension point="xbmc.addon.metadata">
         <summary>[COLOR limegreen][B]RefleX[/B][/COLOR]Wizard</summary>
         <description>The official home of [COLOR limegreen][B]RefleX[/B][/COLOR]Wizard.</description>
@@ -25,3 +58,4 @@
         <source>https://www.github.com/1RefleX/repo.reflex/</source>
     </extension>
 </addon>
+</addons>
