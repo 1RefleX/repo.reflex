@@ -35,7 +35,7 @@
         <dir minversion="18.9.0">
             <info compressed="false">https://raw.githubusercontent.com/1RefleX/repo.reflex/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/1RefleX/repo.reflex/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/1RefleX/master/repository.reflex.zip</datadir>
+            <datadir zip="true">https://github.com/1RefleX/repo.reflex/raw/master/repository.reflex.zip</datadir>
         </dir>
     </extension>
 
